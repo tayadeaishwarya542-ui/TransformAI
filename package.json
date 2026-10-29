@@ -1,0 +1,24 @@
+{
+  "name": "transformai-platform",
+  "version": "1.0.0",
+  "description": "Gen AI SaaS Platform for Content Transformation, Quiz Generation & Multi-Tenant SQLite Auth",
+  "main": "polo/server.js",
+  "scripts": {
+    "start": "node polo/server.js",
+    "test": "node polo/tests/test_suite.js && node polo/tests/test_grammar_hybrid.js && node polo/tests/test_quiz_generator.js && node polo/tests/test_auth_system.js",
+    "test:auth": "node polo/tests/test_auth_system.js",
+    "test:quiz": "node polo/tests/test_quiz_generator.js",
+    "test:grammar": "node polo/tests/test_grammar_hybrid.js",
+    "test:regression": "node polo/tests/test_suite.js"
+  },
+  "keywords": [
+    "genai",
+    "content-transformation",
+    "pipelines",
+    "hybrid-nlp",
+    "authentication",
+    "sqlite-multitenancy"
+  ],
+  "author": "TransformAI Team",
+  "license": "MIT"
+}
